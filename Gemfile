@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.1'
 gem 'pg'
 # Paginiation on views
 gem 'will_paginate', '~> 3.1.0'
+# Gem to upload images
+gem "paperclip", "~> 6.0.0"
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -20,6 +22,8 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -44,6 +48,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 3.7'
+ gem 'factory_bot_rails'
+ gem 'rubocop', require: false
 end
 
 group :development do
@@ -53,6 +60,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'annotate'
 end
 
 group :test do
