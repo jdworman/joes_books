@@ -25,10 +25,7 @@
   <%= @book.author.map(&:name).join(",") %>
 </p>
 
-<p>
-  <strong>Image:</strong>
-  <%= image_tag @book.image.url%>
-</p>
+
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
