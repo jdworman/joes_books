@@ -17,12 +17,12 @@
 
 <p>
   <strong>Format:</strong>
-  <%= @book.format_name %>
+  <%= @book.format_id %>
 </p>
 
 <p>
   <strong>Author:</strong>
-  <%= @book.authors.map(&:name).join(",") %>
+  <%= @book.author.map(&:name).join(",") %>
 </p>
 
 <p>

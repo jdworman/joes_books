@@ -5,11 +5,24 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+
+    <nav class="navbar">
+
+      <ul class="sidebar">
+        <li class="sidebar__item">
+          <%= link_to 'Home', root_path, :class => "sidebar__link" %>
+        </li>
+        <li class="sidebar__item">
+          <%= link_to 'New Books', new_book_path, :class => "sidebar__link" %>
+        </li>
+      </ul>
+    </nav>
+
     <%= yield %>
   </body>
 </html>

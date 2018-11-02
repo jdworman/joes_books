@@ -10,11 +10,13 @@ class BooksController < ApplicationController
     @books = Book.paginate(page: params[:page])
   end
 
-  def show; end
+  def show
+    
+  end
 
   def new
     @book = Book.new
-    # @book.authors_book.build
+    @book.authors_book.build
   end
 
   def edit; end
