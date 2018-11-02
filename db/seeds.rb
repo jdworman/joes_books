@@ -22,8 +22,8 @@ Author.create([
 
 # Book.create([
 #   { title: "It", release_date: '10-08-1984 10:00:00', base_price: 10.50, format: 1 },
-  # { title: "Romeo and Juliet", release_date: '02-12-1992 10:00:00', base_price: 2.50, format: 2 },
-  # { title: "1984", release_date: '03-08-1988 10:00:00', base_price: 7.25, format: 3 },
-  # { title: "Tom Sayer", release_date: '10-31-1990 10:00:00', base_price: 120.00, format: 1 },
-  # { title: "Animorphs", release_date: '10-08-2018 10:00:00', base_price: 3.75, format: 2 }
+#   { title: "Romeo and Juliet", release_date: '02-12-1992 10:00:00', base_price: 2.50, format: 2 },
+#   { title: "1984", release_date: '03-08-1988 10:00:00', base_price: 7.25, format: 3 },
+#   { title: "Tom Sayer", release_date: '10-31-1990 10:00:00', base_price: 120.00, format: 1 },
+#   { title: "Animorphs", release_date: '10-08-2018 10:00:00', base_price: 3.75, format: 2 }
 # ])

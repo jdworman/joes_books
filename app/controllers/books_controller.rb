@@ -14,7 +14,7 @@ class BooksController < ApplicationController
 
   def new
     @book = Book.new
-    @book.book_authors.build
+    # @book.authors_book.build
   end
 
   def edit; end

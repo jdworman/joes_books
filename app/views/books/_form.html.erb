@@ -35,7 +35,7 @@
   <div class="form-group">
     <%= form.label :authors %>
     <%= form.fields_for(:book_authors) do |book_author| %>
-      <%= book_author.select :author_id, options_from_collection_for_select(@authors, 'id', 'name', book.author_id), {}, { :class => 'form-control'} %>
+       
     <% end %>
   </div>
 
